@@ -39,6 +39,6 @@ lc.submit1();
 				s1[i][j]=DataDriven.getCellValue(filename, "Sheet1", i, j);
 			}
 		}
-	  return s2;
+	  return s1;
 	}
 }
