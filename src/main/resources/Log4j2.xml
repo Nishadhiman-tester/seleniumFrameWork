@@ -1,0 +1,18 @@
+<configuration status ="Warn" strict="true" >
+	<Appenders>
+		<Appender type="Console" name="STDOUT">
+			<Layout Type="PatternLayout"
+				pattern="%d{HH:mm:ss.SSS} [%t]%-5level %logger{36} - %msg%n" />
+		</Appender>
+		<Appender type="File" name="file" filename="C:\Users\TSL\Desktop\java\core java workspace\seleniumFramework\Logs\log">
+			<Layout type="PatternLayout"
+			pattern="%d{HH:mm:ss.SSS} [%t]%-5level %logger{36} - %msg%n" />
+			</Appender>
+	</Appenders>
+	<Loggers>
+		<root  level="All">
+			<AppenderRef ref="file"/>
+		</root>
+	</Loggers>
+		
+</configuration>
